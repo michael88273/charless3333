@@ -112,19 +112,7 @@ const Card = ({
               />
             </Link>
           )}
-          {githubLink && (
-            <Link
-              href={githubLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full transition-colors"
-            >
-              <FaGithub
-                size={16}
-                className="text-primary-color dark:lg:text-secondary-color-3"
-              />
-            </Link>
-          )}
+          
         </div>
       </div>
     </section>
