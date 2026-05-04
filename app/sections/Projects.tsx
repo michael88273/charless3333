@@ -30,7 +30,6 @@ const Projects = () => {
                   name={project?.name}
                   description={project?.description}
                   image={project?.image}
-                  loomLink={project?.loomLink}
                   liveLink={project?.liveLink}
                   stacks={project?.stacks}
                   type={project?.type}
