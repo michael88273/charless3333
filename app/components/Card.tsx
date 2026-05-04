@@ -21,7 +21,6 @@ const Card = ({
   image,
   loomLink,
   liveLink,
-  githubLink,
   stacks,
 }: CardProps) => {
   const isEven = id % 2 === 0;
