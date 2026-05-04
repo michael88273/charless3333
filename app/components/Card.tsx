@@ -10,7 +10,6 @@ interface CardProps {
   image: string;
   loomLink?: string;
   liveLink?: string;
-  githubLink?: string;
   stacks: Array<string>;
 }
 
