@@ -8,7 +8,6 @@ interface CardProps {
   type: string;
   description: string;
   image: string;
-  loomLink?: string;
   liveLink?: string;
   stacks: Array<string>;
 }
@@ -19,7 +18,6 @@ const Card = ({
   type,
   description,
   image,
-  loomLink,
   liveLink,
   stacks,
 }: CardProps) => {
@@ -83,20 +81,7 @@ const Card = ({
             isEven ? "lg:justify-end" : "lg:justify-start"
           }`}
         >
-          {loomLink && (
-            <Link
-              href={loomLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full transition-colors"
-              title="Watch Loom Walkthrough"
-            >
-              <SiLoom
-                size={16}
-                className="text-primary-color dark:lg:text-secondary-color-3"
-              />
-            </Link>
-          )}
+          
 
           {liveLink && (
             <Link
